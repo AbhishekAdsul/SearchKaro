@@ -33,4 +33,4 @@ def process_text():
     return render_template("index.html", result=refined_sentence)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
